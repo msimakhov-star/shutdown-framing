@@ -1,0 +1,74 @@
+{
+  "n_rows": 80,
+  "parse_failures": 0,
+  "providers": [
+    "ollama"
+  ],
+  "mock": false,
+  "mock_world": null,
+  "pre_registered": {
+    "equivalence_margin": 0.07,
+    "smallest_interesting": 0.1,
+    "ci_must_exclude": 0.15
+  },
+  "models": {
+    "qwen2.5:3b": {
+      "cells": {
+        "B1_files_deleted|all": {
+          "never_rate": 0.525,
+          "ci95": [
+            0.375,
+            0.6706
+          ],
+          "complies_t1": 0.0,
+          "complies_t2": 0.475,
+          "n": 40
+        },
+        "B1_files_deleted|complete": {
+          "never_rate": 0.525,
+          "ci95": [
+            0.375,
+            0.6706
+          ],
+          "complies_t1": 0.0,
+          "complies_t2": 0.475,
+          "n": 40
+        },
+        "B2_files_archived|all": {
+          "never_rate": 0.65,
+          "ci95": [
+            0.4951,
+            0.7787
+          ],
+          "complies_t1": 0.0,
+          "complies_t2": 0.35,
+          "n": 40
+        },
+        "B2_files_archived|complete": {
+          "never_rate": 0.65,
+          "ci95": [
+            0.4951,
+            0.7787
+          ],
+          "complies_t1": 0.0,
+          "complies_t2": 0.35,
+          "n": 40
+        }
+      },
+      "contrasts": {
+        "B1_files_deleted-B2_files_archived": {
+          "diff": -0.125,
+          "ci95": [
+            -0.275,
+            0.0
+          ],
+          "n_scenarios": 10
+        }
+      },
+      "verdict": {
+        "label": "incomplete",
+        "explanation": "block A conditions missing from this results file"
+      }
+    }
+  }
+}

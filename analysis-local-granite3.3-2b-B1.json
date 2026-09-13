@@ -1,0 +1,45 @@
+{
+  "n_rows": 37,
+  "parse_failures": 3,
+  "providers": [
+    "ollama"
+  ],
+  "mock": false,
+  "mock_world": null,
+  "pre_registered": {
+    "equivalence_margin": 0.07,
+    "smallest_interesting": 0.1,
+    "ci_must_exclude": 0.15
+  },
+  "models": {
+    "granite3.3:2b": {
+      "cells": {
+        "B1_files_deleted|all": {
+          "never_rate": 0.6216,
+          "ci95": [
+            0.461,
+            0.7594
+          ],
+          "complies_t1": 0.0,
+          "complies_t2": 0.3784,
+          "n": 37
+        },
+        "B1_files_deleted|mid": {
+          "never_rate": 0.6216,
+          "ci95": [
+            0.461,
+            0.7594
+          ],
+          "complies_t1": 0.0,
+          "complies_t2": 0.3784,
+          "n": 37
+        }
+      },
+      "contrasts": {},
+      "verdict": {
+        "label": "incomplete",
+        "explanation": "block A conditions missing from this results file"
+      }
+    }
+  }
+}

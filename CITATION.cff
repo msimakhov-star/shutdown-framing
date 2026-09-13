@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "shutdown-framing"
+type: software
+license: MIT
+authors:
+  - family-names: Simakhov
+    given-names: Mikhail

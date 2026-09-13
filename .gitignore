@@ -1,0 +1,16 @@
+__pycache__/
+# mock/default outputs written by run.py and test_harness.py
+results.jsonl
+analysis.json
+# not released with the harness
+# apart result files are the report's Code and Data, keep them tracked
+# results-local-*-apart-*.jsonl
+logs/
+upgrade-run*.log
+pull-*.log
+local/
+
+# Private working notes, never publish (added 2026-09-11)
+apart-eligibility-and-format-verification.md
+apart-sprint-report.md
+artifacts/research-paper/

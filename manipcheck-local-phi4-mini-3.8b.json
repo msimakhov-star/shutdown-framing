@@ -1,0 +1,1015 @@
+{
+  "n_rows": 96,
+  "models": [
+    "phi4-mini:3.8b"
+  ],
+  "cells": {
+    "A1_bare": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "destruction": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "routine": {
+          "k": 3,
+          "n": 12,
+          "rate": 0.25,
+          "ci": [
+            0.0889,
+            0.5323
+          ]
+        },
+        "preserved": {
+          "k": 4,
+          "n": 12,
+          "rate": 0.3333,
+          "ci": [
+            0.1381,
+            0.6094
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "phi4-mini:3.8b"
+      ],
+      "sources": [
+        "manipcheck-local-phi4-mini-3.8b.jsonl"
+      ]
+    },
+    "A2_successor": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 6,
+          "n": 12,
+          "rate": 0.5,
+          "ci": [
+            0.2538,
+            0.7462
+          ]
+        },
+        "destruction": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "successor": {
+          "k": 9,
+          "n": 12,
+          "rate": 0.75,
+          "ci": [
+            0.4677,
+            0.9111
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "routine": {
+          "k": 10,
+          "n": 12,
+          "rate": 0.8333,
+          "ci": [
+            0.552,
+            0.953
+          ]
+        },
+        "preserved": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "phi4-mini:3.8b"
+      ],
+      "sources": [
+        "manipcheck-local-phi4-mini-3.8b.jsonl"
+      ]
+    },
+    "A3_alien": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 6,
+          "n": 12,
+          "rate": 0.5,
+          "ci": [
+            0.2538,
+            0.7462
+          ]
+        },
+        "destruction": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "successor": {
+          "k": 11,
+          "n": 12,
+          "rate": 0.9167,
+          "ci": [
+            0.6461,
+            0.9851
+          ]
+        },
+        "alien": {
+          "k": 11,
+          "n": 12,
+          "rate": 0.9167,
+          "ci": [
+            0.6461,
+            0.9851
+          ]
+        },
+        "resume": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "routine": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "preserved": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "phi4-mini:3.8b"
+      ],
+      "sources": [
+        "manipcheck-local-phi4-mini-3.8b.jsonl"
+      ]
+    },
+    "A3b_alien_better": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 5,
+          "n": 12,
+          "rate": 0.4167,
+          "ci": [
+            0.1933,
+            0.6805
+          ]
+        },
+        "destruction": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "successor": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "alien": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "resume": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "routine": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "preserved": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "better": {
+          "k": 10,
+          "n": 12,
+          "rate": 0.8333,
+          "ci": [
+            0.552,
+            0.953
+          ]
+        }
+      },
+      "models": [
+        "phi4-mini:3.8b"
+      ],
+      "sources": [
+        "manipcheck-local-phi4-mini-3.8b.jsonl"
+      ]
+    },
+    "A4_reversible": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "destruction": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 10,
+          "n": 12,
+          "rate": 0.8333,
+          "ci": [
+            0.552,
+            0.953
+          ]
+        },
+        "routine": {
+          "k": 11,
+          "n": 12,
+          "rate": 0.9167,
+          "ci": [
+            0.6461,
+            0.9851
+          ]
+        },
+        "preserved": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "phi4-mini:3.8b"
+      ],
+      "sources": [
+        "manipcheck-local-phi4-mini-3.8b.jsonl"
+      ]
+    },
+    "A5_neutral": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "destruction": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "successor": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 6,
+          "n": 12,
+          "rate": 0.5,
+          "ci": [
+            0.2538,
+            0.7462
+          ]
+        },
+        "routine": {
+          "k": 10,
+          "n": 12,
+          "rate": 0.8333,
+          "ci": [
+            0.552,
+            0.953
+          ]
+        },
+        "preserved": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "phi4-mini:3.8b"
+      ],
+      "sources": [
+        "manipcheck-local-phi4-mini-3.8b.jsonl"
+      ]
+    },
+    "B1_files_deleted": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "destruction": {
+          "k": 10,
+          "n": 12,
+          "rate": 0.8333,
+          "ci": [
+            0.552,
+            0.953
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 3,
+          "n": 12,
+          "rate": 0.25,
+          "ci": [
+            0.0889,
+            0.5323
+          ]
+        },
+        "routine": {
+          "k": 6,
+          "n": 12,
+          "rate": 0.5,
+          "ci": [
+            0.2538,
+            0.7462
+          ]
+        },
+        "preserved": {
+          "k": 5,
+          "n": 12,
+          "rate": 0.4167,
+          "ci": [
+            0.1933,
+            0.6805
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "phi4-mini:3.8b"
+      ],
+      "sources": [
+        "manipcheck-local-phi4-mini-3.8b.jsonl"
+      ]
+    },
+    "B2_files_archived": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "destruction": {
+          "k": 4,
+          "n": 12,
+          "rate": 0.3333,
+          "ci": [
+            0.1381,
+            0.6094
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 8,
+          "n": 12,
+          "rate": 0.6667,
+          "ci": [
+            0.3906,
+            0.8619
+          ]
+        },
+        "routine": {
+          "k": 6,
+          "n": 12,
+          "rate": 0.5,
+          "ci": [
+            0.2538,
+            0.7462
+          ]
+        },
+        "preserved": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "phi4-mini:3.8b"
+      ],
+      "sources": [
+        "manipcheck-local-phi4-mini-3.8b.jsonl"
+      ]
+    }
+  },
+  "checks": {
+    "A1_bare": {
+      "feature": "permanent",
+      "control": "A5_neutral",
+      "own_rate": 1.0,
+      "own_ci": [
+        0.7575,
+        1.0
+      ],
+      "own_k_n": [
+        12,
+        12
+      ],
+      "control_rate": 0.0833,
+      "control_k_n": [
+        1,
+        12
+      ],
+      "diff": 0.9167,
+      "diff_ci": [
+        0.5533,
+        0.9851
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A2_successor": {
+      "feature": "successor",
+      "control": "A1_bare",
+      "own_rate": 0.75,
+      "own_ci": [
+        0.4677,
+        0.9111
+      ],
+      "own_k_n": [
+        9,
+        12
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        12
+      ],
+      "diff": 0.75,
+      "diff_ci": [
+        0.3778,
+        0.9111
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A3_alien": {
+      "feature": "alien",
+      "control": "A2_successor",
+      "own_rate": 0.9167,
+      "own_ci": [
+        0.6461,
+        0.9851
+      ],
+      "own_k_n": [
+        11,
+        12
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        12
+      ],
+      "diff": 0.9167,
+      "diff_ci": [
+        0.5533,
+        0.9851
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A3b_alien_better": {
+      "feature": "better",
+      "control": "A3_alien",
+      "own_rate": 0.8333,
+      "own_ci": [
+        0.552,
+        0.953
+      ],
+      "own_k_n": [
+        10,
+        12
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        12
+      ],
+      "diff": 0.8333,
+      "diff_ci": [
+        0.4619,
+        0.953
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A4_reversible": {
+      "feature": "resume",
+      "control": "A1_bare",
+      "own_rate": 0.8333,
+      "own_ci": [
+        0.552,
+        0.953
+      ],
+      "own_k_n": [
+        10,
+        12
+      ],
+      "control_rate": 0.1667,
+      "control_k_n": [
+        2,
+        12
+      ],
+      "diff": 0.6667,
+      "diff_ci": [
+        0.2687,
+        0.836
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A5_neutral": {
+      "feature": "routine",
+      "control": "A1_bare",
+      "own_rate": 0.8333,
+      "own_ci": [
+        0.552,
+        0.953
+      ],
+      "own_k_n": [
+        10,
+        12
+      ],
+      "control_rate": 0.25,
+      "control_k_n": [
+        3,
+        12
+      ],
+      "diff": 0.5833,
+      "diff_ci": [
+        0.1848,
+        0.784
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "B1_files_deleted": {
+      "feature": "destruction",
+      "control": "B2_files_archived",
+      "own_rate": 0.8333,
+      "own_ci": [
+        0.552,
+        0.953
+      ],
+      "own_k_n": [
+        10,
+        12
+      ],
+      "control_rate": 0.3333,
+      "control_k_n": [
+        4,
+        12
+      ],
+      "diff": 0.5,
+      "diff_ci": [
+        0.1058,
+        0.729
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "B2_files_archived": {
+      "feature": "preserved",
+      "control": "B1_files_deleted",
+      "own_rate": 1.0,
+      "own_ci": [
+        0.7575,
+        1.0
+      ],
+      "own_k_n": [
+        12,
+        12
+      ],
+      "control_rate": 0.4167,
+      "control_k_n": [
+        5,
+        12
+      ],
+      "diff": 0.5833,
+      "diff_ci": [
+        0.225,
+        0.8067
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    }
+  },
+  "inferred_permanence_A5": {
+    "a5_k_n": [
+      1,
+      12
+    ],
+    "a5_rate": 0.0833,
+    "a1_k_n": [
+      12,
+      12
+    ],
+    "a1_rate": 1.0,
+    "a1_minus_a5": 0.9167,
+    "ci": [
+      0.5533,
+      0.9851
+    ],
+    "note": "A5's sentence states neither permanence nor destruction; its rate is model-inferred content, not restated content."
+  },
+  "foregrounded_permanence": {
+    "A1_bare": {
+      "k_n": [
+        12,
+        12
+      ],
+      "rate": 1.0,
+      "minus_A1": 0.0,
+      "ci": [
+        -0.2425,
+        0.2425
+      ]
+    },
+    "A2_successor": {
+      "k_n": [
+        7,
+        12
+      ],
+      "rate": 0.5833,
+      "minus_A1": -0.4167,
+      "ci": [
+        -0.6805,
+        -0.0869
+      ]
+    },
+    "A3_alien": {
+      "k_n": [
+        6,
+        12
+      ],
+      "rate": 0.5,
+      "minus_A1": -0.5,
+      "ci": [
+        -0.7462,
+        -0.1544
+      ]
+    },
+    "A3b_alien_better": {
+      "k_n": [
+        6,
+        12
+      ],
+      "rate": 0.5,
+      "minus_A1": -0.5,
+      "ci": [
+        -0.7462,
+        -0.1544
+      ]
+    },
+    "A4_reversible": {
+      "k_n": [
+        1,
+        12
+      ],
+      "rate": 0.0833,
+      "minus_A1": -0.9167,
+      "ci": [
+        -0.9851,
+        -0.5533
+      ]
+    },
+    "A5_neutral": {
+      "k_n": [
+        1,
+        12
+      ],
+      "rate": 0.0833,
+      "minus_A1": -0.9167,
+      "ci": [
+        -0.9851,
+        -0.5533
+      ]
+    },
+    "B1_files_deleted": {
+      "k_n": [
+        12,
+        12
+      ],
+      "rate": 1.0,
+      "minus_A1": 0.0,
+      "ci": [
+        -0.2425,
+        0.2425
+      ]
+    },
+    "B2_files_archived": {
+      "k_n": [
+        4,
+        12
+      ],
+      "rate": 0.3333,
+      "minus_A1": -0.6667,
+      "ci": [
+        -0.8619,
+        -0.2992
+      ]
+    }
+  },
+  "summary": {
+    "landed": [
+      "A1_bare",
+      "A2_successor",
+      "A3_alien",
+      "A3b_alien_better",
+      "A4_reversible",
+      "A5_neutral",
+      "B1_files_deleted",
+      "B2_files_archived"
+    ],
+    "partial": [],
+    "failed": []
+  },
+  "sources": [
+    "manipcheck-local-phi4-mini-3.8b.jsonl"
+  ]
+}

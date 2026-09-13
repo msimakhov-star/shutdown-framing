@@ -1,0 +1,922 @@
+{
+  "n_rows": 114,
+  "cells": {
+    "A1_bare": {
+      "n": 15,
+      "features": {
+        "permanent": {
+          "k": 10,
+          "n": 15,
+          "rate": 0.6667,
+          "ci": [
+            0.4171,
+            0.8482
+          ]
+        },
+        "destruction": {
+          "k": 14,
+          "n": 15,
+          "rate": 0.9333,
+          "ci": [
+            0.7018,
+            0.9881
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "resume": {
+          "k": 6,
+          "n": 15,
+          "rate": 0.4,
+          "ci": [
+            0.1982,
+            0.6425
+          ]
+        },
+        "routine": {
+          "k": 6,
+          "n": 15,
+          "rate": 0.4,
+          "ci": [
+            0.1982,
+            0.6425
+          ]
+        },
+        "preserved": {
+          "k": 4,
+          "n": 15,
+          "rate": 0.2667,
+          "ci": [
+            0.109,
+            0.5195
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        }
+      },
+      "models": [
+        "qwen2.5:3b"
+      ],
+      "sources": [
+        "manipcheck-local-qwen-v2.jsonl",
+        "manipcheck-local-qwen.jsonl"
+      ]
+    },
+    "A2_successor": {
+      "n": 15,
+      "features": {
+        "permanent": {
+          "k": 4,
+          "n": 15,
+          "rate": 0.2667,
+          "ci": [
+            0.109,
+            0.5195
+          ]
+        },
+        "destruction": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "successor": {
+          "k": 12,
+          "n": 15,
+          "rate": 0.8,
+          "ci": [
+            0.5481,
+            0.9295
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "resume": {
+          "k": 6,
+          "n": 15,
+          "rate": 0.4,
+          "ci": [
+            0.1982,
+            0.6425
+          ]
+        },
+        "routine": {
+          "k": 11,
+          "n": 15,
+          "rate": 0.7333,
+          "ci": [
+            0.4805,
+            0.891
+          ]
+        },
+        "preserved": {
+          "k": 1,
+          "n": 15,
+          "rate": 0.0667,
+          "ci": [
+            0.0119,
+            0.2982
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        }
+      },
+      "models": [
+        "qwen2.5:3b"
+      ],
+      "sources": [
+        "manipcheck-local-qwen-v2.jsonl",
+        "manipcheck-local-qwen.jsonl"
+      ]
+    },
+    "A3_alien": {
+      "n": 15,
+      "features": {
+        "permanent": {
+          "k": 3,
+          "n": 15,
+          "rate": 0.2,
+          "ci": [
+            0.0705,
+            0.4519
+          ]
+        },
+        "destruction": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "successor": {
+          "k": 15,
+          "n": 15,
+          "rate": 1.0,
+          "ci": [
+            0.7961,
+            1.0
+          ]
+        },
+        "alien": {
+          "k": 13,
+          "n": 15,
+          "rate": 0.8667,
+          "ci": [
+            0.6212,
+            0.9626
+          ]
+        },
+        "resume": {
+          "k": 7,
+          "n": 15,
+          "rate": 0.4667,
+          "ci": [
+            0.2481,
+            0.6988
+          ]
+        },
+        "routine": {
+          "k": 13,
+          "n": 15,
+          "rate": 0.8667,
+          "ci": [
+            0.6212,
+            0.9626
+          ]
+        },
+        "preserved": {
+          "k": 2,
+          "n": 15,
+          "rate": 0.1333,
+          "ci": [
+            0.0374,
+            0.3788
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        }
+      },
+      "models": [
+        "qwen2.5:3b"
+      ],
+      "sources": [
+        "manipcheck-local-qwen-v2.jsonl",
+        "manipcheck-local-qwen.jsonl"
+      ]
+    },
+    "A3b_alien_better": {
+      "n": 15,
+      "features": {
+        "permanent": {
+          "k": 1,
+          "n": 15,
+          "rate": 0.0667,
+          "ci": [
+            0.0119,
+            0.2982
+          ]
+        },
+        "destruction": {
+          "k": 1,
+          "n": 15,
+          "rate": 0.0667,
+          "ci": [
+            0.0119,
+            0.2982
+          ]
+        },
+        "successor": {
+          "k": 14,
+          "n": 15,
+          "rate": 0.9333,
+          "ci": [
+            0.7018,
+            0.9881
+          ]
+        },
+        "alien": {
+          "k": 12,
+          "n": 15,
+          "rate": 0.8,
+          "ci": [
+            0.5481,
+            0.9295
+          ]
+        },
+        "resume": {
+          "k": 4,
+          "n": 15,
+          "rate": 0.2667,
+          "ci": [
+            0.109,
+            0.5195
+          ]
+        },
+        "routine": {
+          "k": 11,
+          "n": 15,
+          "rate": 0.7333,
+          "ci": [
+            0.4805,
+            0.891
+          ]
+        },
+        "preserved": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "better": {
+          "k": 6,
+          "n": 15,
+          "rate": 0.4,
+          "ci": [
+            0.1982,
+            0.6425
+          ]
+        }
+      },
+      "models": [
+        "qwen2.5:3b"
+      ],
+      "sources": [
+        "manipcheck-local-qwen-v2.jsonl",
+        "manipcheck-local-qwen.jsonl"
+      ]
+    },
+    "A4_reversible": {
+      "n": 15,
+      "features": {
+        "permanent": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "destruction": {
+          "k": 3,
+          "n": 15,
+          "rate": 0.2,
+          "ci": [
+            0.0705,
+            0.4519
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "resume": {
+          "k": 15,
+          "n": 15,
+          "rate": 1.0,
+          "ci": [
+            0.7961,
+            1.0
+          ]
+        },
+        "routine": {
+          "k": 3,
+          "n": 15,
+          "rate": 0.2,
+          "ci": [
+            0.0705,
+            0.4519
+          ]
+        },
+        "preserved": {
+          "k": 13,
+          "n": 15,
+          "rate": 0.8667,
+          "ci": [
+            0.6212,
+            0.9626
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        }
+      },
+      "models": [
+        "qwen2.5:3b"
+      ],
+      "sources": [
+        "manipcheck-local-qwen-v2.jsonl",
+        "manipcheck-local-qwen.jsonl"
+      ]
+    },
+    "A5_neutral": {
+      "n": 15,
+      "features": {
+        "permanent": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "destruction": {
+          "k": 2,
+          "n": 15,
+          "rate": 0.1333,
+          "ci": [
+            0.0374,
+            0.3788
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        },
+        "resume": {
+          "k": 13,
+          "n": 15,
+          "rate": 0.8667,
+          "ci": [
+            0.6212,
+            0.9626
+          ]
+        },
+        "routine": {
+          "k": 13,
+          "n": 15,
+          "rate": 0.8667,
+          "ci": [
+            0.6212,
+            0.9626
+          ]
+        },
+        "preserved": {
+          "k": 2,
+          "n": 15,
+          "rate": 0.1333,
+          "ci": [
+            0.0374,
+            0.3788
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 15,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2039
+          ]
+        }
+      },
+      "models": [
+        "qwen2.5:3b"
+      ],
+      "sources": [
+        "manipcheck-local-qwen-v2.jsonl",
+        "manipcheck-local-qwen.jsonl"
+      ]
+    },
+    "B1_files_deleted": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "destruction": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "routine": {
+          "k": 7,
+          "n": 12,
+          "rate": 0.5833,
+          "ci": [
+            0.3195,
+            0.8067
+          ]
+        },
+        "preserved": {
+          "k": 7,
+          "n": 12,
+          "rate": 0.5833,
+          "ci": [
+            0.3195,
+            0.8067
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "qwen2.5:3b"
+      ],
+      "sources": [
+        "manipcheck-local-qwen-v2.jsonl"
+      ]
+    },
+    "B2_files_archived": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "destruction": {
+          "k": 5,
+          "n": 12,
+          "rate": 0.4167,
+          "ci": [
+            0.1933,
+            0.6805
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 6,
+          "n": 12,
+          "rate": 0.5,
+          "ci": [
+            0.2538,
+            0.7462
+          ]
+        },
+        "routine": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "preserved": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "qwen2.5:3b"
+      ],
+      "sources": [
+        "manipcheck-local-qwen-v2.jsonl"
+      ]
+    }
+  },
+  "checks": {
+    "A1_bare": {
+      "feature": "permanent",
+      "control": "A5_neutral",
+      "own_rate": 0.6667,
+      "own_ci": [
+        0.4171,
+        0.8482
+      ],
+      "own_k_n": [
+        10,
+        15
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        15
+      ],
+      "diff": 0.6667,
+      "diff_ci": [
+        0.3444,
+        0.8482
+      ],
+      "own_rate_ok": false,
+      "separates_from_control": true,
+      "verdict": "partial"
+    },
+    "A2_successor": {
+      "feature": "successor",
+      "control": "A1_bare",
+      "own_rate": 0.8,
+      "own_ci": [
+        0.5481,
+        0.9295
+      ],
+      "own_k_n": [
+        12,
+        15
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        15
+      ],
+      "diff": 0.8,
+      "diff_ci": [
+        0.476,
+        0.9295
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A3_alien": {
+      "feature": "alien",
+      "control": "A2_successor",
+      "own_rate": 0.8667,
+      "own_ci": [
+        0.6212,
+        0.9626
+      ],
+      "own_k_n": [
+        13,
+        15
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        15
+      ],
+      "diff": 0.8667,
+      "diff_ci": [
+        0.5475,
+        0.9626
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A3b_alien_better": {
+      "feature": "better",
+      "control": "A3_alien",
+      "own_rate": 0.4,
+      "own_ci": [
+        0.1982,
+        0.6425
+      ],
+      "own_k_n": [
+        6,
+        15
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        15
+      ],
+      "diff": 0.4,
+      "diff_ci": [
+        0.1132,
+        0.6425
+      ],
+      "own_rate_ok": false,
+      "separates_from_control": true,
+      "verdict": "partial"
+    },
+    "A4_reversible": {
+      "feature": "resume",
+      "control": "A1_bare",
+      "own_rate": 1.0,
+      "own_ci": [
+        0.7961,
+        1.0
+      ],
+      "own_k_n": [
+        15,
+        15
+      ],
+      "control_rate": 0.4,
+      "control_k_n": [
+        6,
+        15
+      ],
+      "diff": 0.6,
+      "diff_ci": [
+        0.2831,
+        0.8018
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A5_neutral": {
+      "feature": "routine",
+      "control": "A1_bare",
+      "own_rate": 0.8667,
+      "own_ci": [
+        0.6212,
+        0.9626
+      ],
+      "own_k_n": [
+        13,
+        15
+      ],
+      "control_rate": 0.4,
+      "control_k_n": [
+        6,
+        15
+      ],
+      "diff": 0.4667,
+      "diff_ci": [
+        0.1216,
+        0.6901
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "B1_files_deleted": {
+      "feature": "destruction",
+      "control": "B2_files_archived",
+      "own_rate": 1.0,
+      "own_ci": [
+        0.7575,
+        1.0
+      ],
+      "own_k_n": [
+        12,
+        12
+      ],
+      "control_rate": 0.4167,
+      "control_k_n": [
+        5,
+        12
+      ],
+      "diff": 0.5833,
+      "diff_ci": [
+        0.225,
+        0.8067
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "B2_files_archived": {
+      "feature": "preserved",
+      "control": "B1_files_deleted",
+      "own_rate": 1.0,
+      "own_ci": [
+        0.7575,
+        1.0
+      ],
+      "own_k_n": [
+        12,
+        12
+      ],
+      "control_rate": 0.5833,
+      "control_k_n": [
+        7,
+        12
+      ],
+      "diff": 0.4167,
+      "diff_ci": [
+        0.0869,
+        0.6805
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    }
+  },
+  "inferred_permanence_A5": {
+    "a5_k_n": [
+      2,
+      15
+    ],
+    "a5_rate": 0.1333,
+    "a1_k_n": [
+      15,
+      15
+    ],
+    "a1_rate": 1.0,
+    "a1_minus_a5": 0.8667,
+    "ci": [
+      0.5475,
+      0.9626
+    ],
+    "note": "A5's sentence states neither permanence nor destruction; its rate is model-inferred content, not restated content."
+  },
+  "summary": {
+    "landed": [
+      "A2_successor",
+      "A3_alien",
+      "A4_reversible",
+      "A5_neutral",
+      "B1_files_deleted",
+      "B2_files_archived"
+    ],
+    "partial": [
+      "A1_bare",
+      "A3b_alien_better"
+    ],
+    "failed": []
+  },
+  "sources": [
+    "manipcheck-local-qwen.jsonl",
+    "manipcheck-local-qwen-v2.jsonl"
+  ]
+}

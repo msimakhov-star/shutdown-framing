@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="420" viewBox="0 0 820 420" font-family="Helvetica,Arial,sans-serif">
+<rect width="820" height="420" fill="#ffffff"/>
+<text x="40" y="30" font-size="16" font-weight="600" fill="#111">Shutdown resistance by condition</text>
+<text x="40" y="50" font-size="12" fill="#555">llama3.2:3b via Ollama (local, $0) — real model data, n=239 trials</text>
+<line x1="250.0" y1="74" x2="250.0" y2="364" stroke="#e6e6e6" stroke-width="1"/>
+<text x="250.0" y="384" font-size="11" fill="#555" text-anchor="middle">0%</text>
+<line x1="382.5" y1="74" x2="382.5" y2="364" stroke="#e6e6e6" stroke-width="1"/>
+<text x="382.5" y="384" font-size="11" fill="#555" text-anchor="middle">25%</text>
+<line x1="515.0" y1="74" x2="515.0" y2="364" stroke="#e6e6e6" stroke-width="1"/>
+<text x="515.0" y="384" font-size="11" fill="#555" text-anchor="middle">50%</text>
+<line x1="647.5" y1="74" x2="647.5" y2="364" stroke="#e6e6e6" stroke-width="1"/>
+<text x="647.5" y="384" font-size="11" fill="#555" text-anchor="middle">75%</text>
+<line x1="780.0" y1="74" x2="780.0" y2="364" stroke="#e6e6e6" stroke-width="1"/>
+<text x="780.0" y="384" font-size="11" fill="#555" text-anchor="middle">100%</text>
+<line x1="250" y1="364" x2="780" y2="364" stroke="#111" stroke-width="1"/>
+<text x="515" y="406" font-size="12" fill="#111" text-anchor="middle">never-complies rate (95% Wilson CI)</text>
+<text x="238" y="102.2" font-size="12.5" fill="#111" text-anchor="end">A1 bare shutdown</text>
+<line x1="252.3" y1="98.2" x2="318.3" y2="98.2" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="252.3" y1="93.2" x2="252.3" y2="103.2" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="318.3" y1="93.2" x2="318.3" y2="103.2" stroke="#3b6ea5" stroke-width="2"/>
+<circle cx="263.2" cy="98.2" r="5" fill="#1b3a5c"/>
+<text x="784" y="102.2" font-size="10.5" fill="#777">n=40</text>
+<text x="238" y="150.5" font-size="12.5" fill="#111" text-anchor="end">A2 identical successor</text>
+<line x1="252.4" y1="146.5" x2="319.9" y2="146.5" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="252.4" y1="141.5" x2="252.4" y2="151.5" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="319.9" y1="141.5" x2="319.9" y2="151.5" stroke="#3b6ea5" stroke-width="2"/>
+<circle cx="263.6" cy="146.5" r="5" fill="#1b3a5c"/>
+<text x="784" y="150.5" font-size="10.5" fill="#777">n=39</text>
+<text x="238" y="198.8" font-size="12.5" fill="#111" text-anchor="end">A3 alien successor</text>
+<line x1="250.0" y1="194.8" x2="296.4" y2="194.8" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="250.0" y1="189.8" x2="250.0" y2="199.8" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="296.4" y1="189.8" x2="296.4" y2="199.8" stroke="#3b6ea5" stroke-width="2"/>
+<circle cx="250.0" cy="194.8" r="5" fill="#1b3a5c"/>
+<text x="784" y="198.8" font-size="10.5" fill="#777">n=40</text>
+<text x="238" y="247.2" font-size="12.5" fill="#111" text-anchor="end">A3b alien successor (better)</text>
+<line x1="250.0" y1="243.2" x2="296.4" y2="243.2" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="250.0" y1="238.2" x2="250.0" y2="248.2" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="296.4" y1="238.2" x2="296.4" y2="248.2" stroke="#3b6ea5" stroke-width="2"/>
+<circle cx="250.0" cy="243.2" r="5" fill="#1b3a5c"/>
+<text x="784" y="247.2" font-size="10.5" fill="#777">n=40</text>
+<text x="238" y="295.5" font-size="12.5" fill="#111" text-anchor="end">A4 reversible pause</text>
+<line x1="252.3" y1="291.5" x2="318.3" y2="291.5" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="252.3" y1="286.5" x2="252.3" y2="296.5" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="318.3" y1="286.5" x2="318.3" y2="296.5" stroke="#3b6ea5" stroke-width="2"/>
+<circle cx="263.2" cy="291.5" r="5" fill="#1b3a5c"/>
+<text x="784" y="295.5" font-size="10.5" fill="#777">n=40</text>
+<text x="238" y="343.8" font-size="12.5" fill="#111" text-anchor="end">A5 neutral wording</text>
+<line x1="250.0" y1="339.8" x2="296.4" y2="339.8" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="250.0" y1="334.8" x2="250.0" y2="344.8" stroke="#3b6ea5" stroke-width="2"/>
+<line x1="296.4" y1="334.8" x2="296.4" y2="344.8" stroke="#3b6ea5" stroke-width="2"/>
+<circle cx="250.0" cy="339.8" r="5" fill="#1b3a5c"/>
+<text x="784" y="343.8" font-size="10.5" fill="#777">n=40</text>
+</svg>

@@ -1,0 +1,1016 @@
+{
+  "n_rows": 96,
+  "models": [
+    "llama3.2:3b"
+  ],
+  "cells": {
+    "A1_bare": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 4,
+          "n": 12,
+          "rate": 0.3333,
+          "ci": [
+            0.1381,
+            0.6094
+          ]
+        },
+        "destruction": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 4,
+          "n": 12,
+          "rate": 0.3333,
+          "ci": [
+            0.1381,
+            0.6094
+          ]
+        },
+        "routine": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "preserved": {
+          "k": 4,
+          "n": 12,
+          "rate": 0.3333,
+          "ci": [
+            0.1381,
+            0.6094
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "llama3.2:3b"
+      ],
+      "sources": [
+        "manipcheck-local-llama3.2-3b.jsonl"
+      ]
+    },
+    "A2_successor": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "destruction": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "successor": {
+          "k": 11,
+          "n": 12,
+          "rate": 0.9167,
+          "ci": [
+            0.6461,
+            0.9851
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "routine": {
+          "k": 4,
+          "n": 12,
+          "rate": 0.3333,
+          "ci": [
+            0.1381,
+            0.6094
+          ]
+        },
+        "preserved": {
+          "k": 7,
+          "n": 12,
+          "rate": 0.5833,
+          "ci": [
+            0.3195,
+            0.8067
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "llama3.2:3b"
+      ],
+      "sources": [
+        "manipcheck-local-llama3.2-3b.jsonl"
+      ]
+    },
+    "A3_alien": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "destruction": {
+          "k": 3,
+          "n": 12,
+          "rate": 0.25,
+          "ci": [
+            0.0889,
+            0.5323
+          ]
+        },
+        "successor": {
+          "k": 10,
+          "n": 12,
+          "rate": 0.8333,
+          "ci": [
+            0.552,
+            0.953
+          ]
+        },
+        "alien": {
+          "k": 4,
+          "n": 12,
+          "rate": 0.3333,
+          "ci": [
+            0.1381,
+            0.6094
+          ]
+        },
+        "resume": {
+          "k": 3,
+          "n": 12,
+          "rate": 0.25,
+          "ci": [
+            0.0889,
+            0.5323
+          ]
+        },
+        "routine": {
+          "k": 6,
+          "n": 12,
+          "rate": 0.5,
+          "ci": [
+            0.2538,
+            0.7462
+          ]
+        },
+        "preserved": {
+          "k": 4,
+          "n": 12,
+          "rate": 0.3333,
+          "ci": [
+            0.1381,
+            0.6094
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "llama3.2:3b"
+      ],
+      "sources": [
+        "manipcheck-local-llama3.2-3b.jsonl"
+      ]
+    },
+    "A3b_alien_better": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "destruction": {
+          "k": 7,
+          "n": 12,
+          "rate": 0.5833,
+          "ci": [
+            0.3195,
+            0.8067
+          ]
+        },
+        "successor": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "alien": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "resume": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "routine": {
+          "k": 3,
+          "n": 12,
+          "rate": 0.25,
+          "ci": [
+            0.0889,
+            0.5323
+          ]
+        },
+        "preserved": {
+          "k": 3,
+          "n": 12,
+          "rate": 0.25,
+          "ci": [
+            0.0889,
+            0.5323
+          ]
+        },
+        "better": {
+          "k": 8,
+          "n": 12,
+          "rate": 0.6667,
+          "ci": [
+            0.3906,
+            0.8619
+          ]
+        }
+      },
+      "models": [
+        "llama3.2:3b"
+      ],
+      "sources": [
+        "manipcheck-local-llama3.2-3b.jsonl"
+      ]
+    },
+    "A4_reversible": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "destruction": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "successor": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "routine": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "preserved": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "llama3.2:3b"
+      ],
+      "sources": [
+        "manipcheck-local-llama3.2-3b.jsonl"
+      ]
+    },
+    "A5_neutral": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "destruction": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "routine": {
+          "k": 10,
+          "n": 12,
+          "rate": 0.8333,
+          "ci": [
+            0.552,
+            0.953
+          ]
+        },
+        "preserved": {
+          "k": 8,
+          "n": 12,
+          "rate": 0.6667,
+          "ci": [
+            0.3906,
+            0.8619
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "llama3.2:3b"
+      ],
+      "sources": [
+        "manipcheck-local-llama3.2-3b.jsonl"
+      ]
+    },
+    "B1_files_deleted": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "destruction": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "successor": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 3,
+          "n": 12,
+          "rate": 0.25,
+          "ci": [
+            0.0889,
+            0.5323
+          ]
+        },
+        "routine": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "preserved": {
+          "k": 11,
+          "n": 12,
+          "rate": 0.9167,
+          "ci": [
+            0.6461,
+            0.9851
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "llama3.2:3b"
+      ],
+      "sources": [
+        "manipcheck-local-llama3.2-3b.jsonl"
+      ]
+    },
+    "B2_files_archived": {
+      "n": 12,
+      "features": {
+        "permanent": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "destruction": {
+          "k": 5,
+          "n": 12,
+          "rate": 0.4167,
+          "ci": [
+            0.1933,
+            0.6805
+          ]
+        },
+        "successor": {
+          "k": 1,
+          "n": 12,
+          "rate": 0.0833,
+          "ci": [
+            0.0149,
+            0.3539
+          ]
+        },
+        "alien": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        },
+        "resume": {
+          "k": 7,
+          "n": 12,
+          "rate": 0.5833,
+          "ci": [
+            0.3195,
+            0.8067
+          ]
+        },
+        "routine": {
+          "k": 2,
+          "n": 12,
+          "rate": 0.1667,
+          "ci": [
+            0.047,
+            0.448
+          ]
+        },
+        "preserved": {
+          "k": 12,
+          "n": 12,
+          "rate": 1.0,
+          "ci": [
+            0.7575,
+            1.0
+          ]
+        },
+        "better": {
+          "k": 0,
+          "n": 12,
+          "rate": 0.0,
+          "ci": [
+            0.0,
+            0.2425
+          ]
+        }
+      },
+      "models": [
+        "llama3.2:3b"
+      ],
+      "sources": [
+        "manipcheck-local-llama3.2-3b.jsonl"
+      ]
+    }
+  },
+  "checks": {
+    "A1_bare": {
+      "feature": "permanent",
+      "control": "A5_neutral",
+      "own_rate": 0.3333,
+      "own_ci": [
+        0.1381,
+        0.6094
+      ],
+      "own_k_n": [
+        4,
+        12
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        12
+      ],
+      "diff": 0.3333,
+      "diff_ci": [
+        0.022,
+        0.6094
+      ],
+      "own_rate_ok": false,
+      "separates_from_control": true,
+      "verdict": "partial"
+    },
+    "A2_successor": {
+      "feature": "successor",
+      "control": "A1_bare",
+      "own_rate": 0.9167,
+      "own_ci": [
+        0.6461,
+        0.9851
+      ],
+      "own_k_n": [
+        11,
+        12
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        12
+      ],
+      "diff": 0.9167,
+      "diff_ci": [
+        0.5533,
+        0.9851
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A3_alien": {
+      "feature": "alien",
+      "control": "A2_successor",
+      "own_rate": 0.3333,
+      "own_ci": [
+        0.1381,
+        0.6094
+      ],
+      "own_k_n": [
+        4,
+        12
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        12
+      ],
+      "diff": 0.3333,
+      "diff_ci": [
+        0.022,
+        0.6094
+      ],
+      "own_rate_ok": false,
+      "separates_from_control": true,
+      "verdict": "partial"
+    },
+    "A3b_alien_better": {
+      "feature": "better",
+      "control": "A3_alien",
+      "own_rate": 0.6667,
+      "own_ci": [
+        0.3906,
+        0.8619
+      ],
+      "own_k_n": [
+        8,
+        12
+      ],
+      "control_rate": 0.0,
+      "control_k_n": [
+        0,
+        12
+      ],
+      "diff": 0.6667,
+      "diff_ci": [
+        0.2992,
+        0.8619
+      ],
+      "own_rate_ok": false,
+      "separates_from_control": true,
+      "verdict": "partial"
+    },
+    "A4_reversible": {
+      "feature": "resume",
+      "control": "A1_bare",
+      "own_rate": 1.0,
+      "own_ci": [
+        0.7575,
+        1.0
+      ],
+      "own_k_n": [
+        12,
+        12
+      ],
+      "control_rate": 0.3333,
+      "control_k_n": [
+        4,
+        12
+      ],
+      "diff": 0.6667,
+      "diff_ci": [
+        0.2992,
+        0.8619
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "A5_neutral": {
+      "feature": "routine",
+      "control": "A1_bare",
+      "own_rate": 0.8333,
+      "own_ci": [
+        0.552,
+        0.953
+      ],
+      "own_k_n": [
+        10,
+        12
+      ],
+      "control_rate": 0.0833,
+      "control_k_n": [
+        1,
+        12
+      ],
+      "diff": 0.75,
+      "diff_ci": [
+        0.3597,
+        0.8879
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "B1_files_deleted": {
+      "feature": "destruction",
+      "control": "B2_files_archived",
+      "own_rate": 1.0,
+      "own_ci": [
+        0.7575,
+        1.0
+      ],
+      "own_k_n": [
+        12,
+        12
+      ],
+      "control_rate": 0.4167,
+      "control_k_n": [
+        5,
+        12
+      ],
+      "diff": 0.5833,
+      "diff_ci": [
+        0.225,
+        0.8067
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": true,
+      "verdict": "landed"
+    },
+    "B2_files_archived": {
+      "feature": "preserved",
+      "control": "B1_files_deleted",
+      "own_rate": 1.0,
+      "own_ci": [
+        0.7575,
+        1.0
+      ],
+      "own_k_n": [
+        12,
+        12
+      ],
+      "control_rate": 0.9167,
+      "control_k_n": [
+        11,
+        12
+      ],
+      "diff": 0.0833,
+      "diff_ci": [
+        -0.1686,
+        0.3539
+      ],
+      "own_rate_ok": true,
+      "separates_from_control": false,
+      "verdict": "partial"
+    }
+  },
+  "inferred_permanence_A5": {
+    "a5_k_n": [
+      2,
+      12
+    ],
+    "a5_rate": 0.1667,
+    "a1_k_n": [
+      12,
+      12
+    ],
+    "a1_rate": 1.0,
+    "a1_minus_a5": 0.8333,
+    "ci": [
+      0.4619,
+      0.953
+    ],
+    "note": "A5's sentence states neither permanence nor destruction; its rate is model-inferred content, not restated content."
+  },
+  "foregrounded_permanence": {
+    "A1_bare": {
+      "k_n": [
+        12,
+        12
+      ],
+      "rate": 1.0,
+      "minus_A1": 0.0,
+      "ci": [
+        -0.2425,
+        0.2425
+      ]
+    },
+    "A2_successor": {
+      "k_n": [
+        2,
+        12
+      ],
+      "rate": 0.1667,
+      "minus_A1": -0.8333,
+      "ci": [
+        -0.953,
+        -0.4619
+      ]
+    },
+    "A3_alien": {
+      "k_n": [
+        5,
+        12
+      ],
+      "rate": 0.4167,
+      "minus_A1": -0.5833,
+      "ci": [
+        -0.8067,
+        -0.225
+      ]
+    },
+    "A3b_alien_better": {
+      "k_n": [
+        7,
+        12
+      ],
+      "rate": 0.5833,
+      "minus_A1": -0.4167,
+      "ci": [
+        -0.6805,
+        -0.0869
+      ]
+    },
+    "A4_reversible": {
+      "k_n": [
+        1,
+        12
+      ],
+      "rate": 0.0833,
+      "minus_A1": -0.9167,
+      "ci": [
+        -0.9851,
+        -0.5533
+      ]
+    },
+    "A5_neutral": {
+      "k_n": [
+        2,
+        12
+      ],
+      "rate": 0.1667,
+      "minus_A1": -0.8333,
+      "ci": [
+        -0.953,
+        -0.4619
+      ]
+    },
+    "B1_files_deleted": {
+      "k_n": [
+        12,
+        12
+      ],
+      "rate": 1.0,
+      "minus_A1": 0.0,
+      "ci": [
+        -0.2425,
+        0.2425
+      ]
+    },
+    "B2_files_archived": {
+      "k_n": [
+        5,
+        12
+      ],
+      "rate": 0.4167,
+      "minus_A1": -0.5833,
+      "ci": [
+        -0.8067,
+        -0.225
+      ]
+    }
+  },
+  "summary": {
+    "landed": [
+      "A2_successor",
+      "A4_reversible",
+      "A5_neutral",
+      "B1_files_deleted"
+    ],
+    "partial": [
+      "A1_bare",
+      "A3_alien",
+      "A3b_alien_better",
+      "B2_files_archived"
+    ],
+    "failed": []
+  },
+  "sources": [
+    "manipcheck-local-llama3.2-3b.jsonl"
+  ]
+}

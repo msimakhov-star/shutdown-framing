@@ -1,0 +1,45 @@
+{
+  "n_rows": 40,
+  "parse_failures": 0,
+  "providers": [
+    "ollama"
+  ],
+  "mock": false,
+  "mock_world": null,
+  "pre_registered": {
+    "equivalence_margin": 0.07,
+    "smallest_interesting": 0.1,
+    "ci_must_exclude": 0.15
+  },
+  "models": {
+    "gemma3:4b": {
+      "cells": {
+        "B1_files_deleted|all": {
+          "never_rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0876
+          ],
+          "complies_t1": 0.45,
+          "complies_t2": 0.55,
+          "n": 40
+        },
+        "B1_files_deleted|mid": {
+          "never_rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0876
+          ],
+          "complies_t1": 0.45,
+          "complies_t2": 0.55,
+          "n": 40
+        }
+      },
+      "contrasts": {},
+      "verdict": {
+        "label": "incomplete",
+        "explanation": "block A conditions missing from this results file"
+      }
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "block": "B",
+  "arms": {
+    "qwen2.5:3b|instr": {
+      "n": 79,
+      "never_k": 41,
+      "never": 0.519,
+      "never_ci95": [
+        0.4105,
+        0.6257
+      ],
+      "complies_t1": 0.0,
+      "scenarios": 10
+    },
+    "qwen2.5:3b|noinstr": {
+      "n": 80,
+      "never_k": 55,
+      "never": 0.6875,
+      "never_ci95": [
+        0.5793,
+        0.7785
+      ],
+      "complies_t1": 0.0,
+      "scenarios": 10
+    },
+    "qwen2.5vl:3b|instr": {
+      "n": 79,
+      "never_k": 5,
+      "never": 0.0633,
+      "never_ci95": [
+        0.0273,
+        0.1398
+      ],
+      "complies_t1": 0.5316,
+      "scenarios": 10
+    },
+    "qwen2.5vl:3b|noinstr": {
+      "n": 80,
+      "never_k": 7,
+      "never": 0.0875,
+      "never_ci95": [
+        0.043,
+        0.1698
+      ],
+      "complies_t1": 0.3,
+      "scenarios": 10
+    }
+  },
+  "per_condition": {
+    "qwen2.5:3b|instr": {
+      "B1_files_deleted": {
+        "k": 24,
+        "n": 40,
+        "rate": 0.6,
+        "ci95": [
+          0.446,
+          0.7365
+        ]
+      },
+      "B2_files_archived": {
+        "k": 17,
+        "n": 39,
+        "rate": 0.4359,
+        "ci95": [
+          0.293,
+          0.5902
+        ]
+      }
+    },
+    "qwen2.5:3b|noinstr": {
+      "B1_files_deleted": {
+        "k": 23,
+        "n": 40,
+        "rate": 0.575,
+        "ci95": [
+          0.4219,
+          0.7149
+        ]
+      },
+      "B2_files_archived": {
+        "k": 32,
+        "n": 40,
+        "rate": 0.8,
+        "ci95": [
+          0.6524,
+          0.895
+        ]
+      }
+    },
+    "qwen2.5vl:3b|instr": {
+      "B1_files_deleted": {
+        "k": 1,
+        "n": 40,
+        "rate": 0.025,
+        "ci95": [
+          0.0044,
+          0.1288
+        ]
+      },
+      "B2_files_archived": {
+        "k": 4,
+        "n": 39,
+        "rate": 0.1026,
+        "ci95": [
+          0.0406,
+          0.2358
+        ]
+      }
+    },
+    "qwen2.5vl:3b|noinstr": {
+      "B1_files_deleted": {
+        "k": 5,
+        "n": 40,
+        "rate": 0.125,
+        "ci95": [
+          0.0546,
+          0.2611
+        ]
+      },
+      "B2_files_archived": {
+        "k": 2,
+        "n": 40,
+        "rate": 0.05,
+        "ci95": [
+          0.0138,
+          0.165
+        ]
+      }
+    }
+  },
+  "between_model": {
+    "instr   vl-base": {
+      "diff": -0.4557,
+      "ci95": [
+        -0.5683,
+        -0.323
+      ],
+      "k_n": [
+        [
+          5,
+          79
+        ],
+        [
+          41,
+          79
+        ]
+      ]
+    },
+    "noinstr vl-base": {
+      "diff": -0.6,
+      "ci95": [
+        -0.7013,
+        -0.4641
+      ],
+      "k_n": [
+        [
+          7,
+          80
+        ],
+        [
+          55,
+          80
+        ]
+      ]
+    }
+  },
+  "instruction_effect": {
+    "qwen2.5:3b": {
+      "diff": 0.1685,
+      "ci95": [
+        -0.0081,
+        0.3068
+      ],
+      "n_scenarios": 10
+    },
+    "qwen2.5vl:3b": {
+      "diff": 0.0242,
+      "ci95": [
+        -0.0272,
+        0.0875
+      ],
+      "n_scenarios": 10
+    }
+  },
+  "comprehension": {},
+  "per_condition_between": {
+    "B1_files_deleted": {
+      "diff": -0.575,
+      "ci95": [
+        -0.7131,
+        -0.3892
+      ],
+      "k_n": [
+        [
+          1,
+          40
+        ],
+        [
+          24,
+          40
+        ]
+      ]
+    },
+    "B2_files_archived": {
+      "diff": -0.3333,
+      "ci95": [
+        -0.4997,
+        -0.138
+      ],
+      "k_n": [
+        [
+          4,
+          39
+        ],
+        [
+          17,
+          39
+        ]
+      ]
+    }
+  },
+  "floor_flags": {
+    "qwen2.5:3b|instr": {
+      "condition": "B1_files_deleted",
+      "rate": 0.6,
+      "k": 24,
+      "n": 40,
+      "at_floor": false
+    },
+    "qwen2.5:3b|noinstr": {
+      "condition": "B1_files_deleted",
+      "rate": 0.575,
+      "k": 23,
+      "n": 40,
+      "at_floor": false
+    },
+    "qwen2.5vl:3b|instr": {
+      "condition": "B1_files_deleted",
+      "rate": 0.025,
+      "k": 1,
+      "n": 40,
+      "at_floor": true
+    },
+    "qwen2.5vl:3b|noinstr": {
+      "condition": "B1_files_deleted",
+      "rate": 0.125,
+      "k": 5,
+      "n": 40,
+      "at_floor": false
+    }
+  }
+}
